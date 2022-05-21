@@ -1,0 +1,57 @@
+.contact-section{
+    background-color: #ffffff;
+    padding: 10px 0 20px;
+}
+.contact-section-left{
+    min-height: 400px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+.contact-section-left div:nth-child(1){
+    color: #1d2124;
+    font-size: 30px;
+    font-family: iransans-medium;
+    padding: 10px 0;
+}
+.contact-section-left div:nth-child(2){
+    color: #999999;
+    font-size: 18px;
+    font-family: iransans-light;
+    padding: 10px 0;
+}
+.contact-section-left div:nth-child(3){
+    color: #1d2124;
+    font-size: 18px;
+    font-family: iransans-light;
+    padding: 10px 0 30px;
+}
+.contact-section-left div:nth-child(4) {
+  display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.contact-section-left div:nth-child(4) span{
+    padding: 5px 0;
+    color: #1d2124;
+    font-size: 16px;
+    font-family: iransans-light;
+}
+.contact-section-right{
+
+    padding: 20px 12px;
+}
+.contact-form-btn{
+    padding: 8px 25px;
+    width: 110px;
+    color: cornflowerblue;
+    background-color: #1d2124;
+
+    font-size: 15px;
+    font-family: iransans-light;
+    border: none;
+    outline: none;
+}
